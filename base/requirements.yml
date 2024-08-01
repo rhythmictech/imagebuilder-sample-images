@@ -1,0 +1,3 @@
+---
+- src: https://github.com/ansible-lockdown/AMAZON2023-CIS.git
+  version: v1.1.0

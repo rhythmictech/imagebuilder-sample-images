@@ -1,0 +1,15 @@
+- hosts: localhost
+  become: yes
+  vars_files:
+    - vars.yml
+  roles:
+    - role: AMAZON2023-CIS
+  tasks:
+    - name: Ensure base packages are installed
+      package:
+        state: latest
+        name:
+          - curl-minimal
+          - jq
+          - nano
+          - mailx

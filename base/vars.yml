@@ -1,0 +1,37 @@
+os_gpg_key_pubkey_name: "gpg-pubkey-d832c631-6515c85e"
+os_gpg_key_pubkey_content: "Amazon Linux <amazon-linux@amazon.com> d832c631"
+
+amzn2023cis_level_2: false
+amzn2023cis_selinux_enforce: permissive
+amzn2023cis_config_aide: false
+amzn2023cis_ipv6_required: false
+amzn2023cis_syslog_service: skip
+amzn2023cis_no_world_write_adjust: false
+
+amzn2023cis_rule_1_1_2_1: False
+amzn2023cis_rule_1_1_2_2: False
+amzn2023cis_rule_1_1_2_3: False
+amzn2023cis_rule_1_1_2_4: False
+amzn2023cis_rule_1_1_8_1: False
+amzn2023cis_rule_1_1_8_2: False
+amzn2023cis_rule_1_1_8_3: False
+amzn2023cis_rule_1_1_8_4: False
+amzn2023cis_rule_1_2_1: False
+# 1.2.2 and 1.2.4 globally enables repo_gpgcheck, which fails on amazon linux repos because their metadata is not gpg signed
+amzn2023cis_rule_1_2_2: False
+amzn2023cis_rule_1_2_4: False
+amzn2023cis_rule_2_1_2: False
+amzn2023cis_rule_4_1_1: False
+amzn2023cis_rule_4_1_8: False
+amzn2023cis_rule_4_1_9: False
+amzn2023cis_rule_4_4_1: False
+amzn2023cis_rule_4_4_2: False
+amzn2023cis_rule_4_6_1_5: False
+amzn2023cis_rule_4_6_2: False
+amzn2023cis_rule_4_6_5: False
+amzn2023cis_rule_4_6_6: False
+amzn2023cis_rule_5_1_3: False
+amzn2023cis_rule_6_1_12: False
+amzn2023cis_rule_6_2_10: False
+amzn2023cis_rule_6_2_11: False
+
